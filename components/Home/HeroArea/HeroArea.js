@@ -34,7 +34,7 @@ const HeroArea = () =>
     {
       id: "34lk34sfasfj",
       title: "Live Text Chat",
-      motto: "Real time text chat for recruitment process",
+      motto: "Real-Time messaging for recruitment process",
       description:
         "As a job portal, we provide a  live text chat functionality. It can be used for recruitment process or to hang out with others. You can easily build your connection bigger to make a chat with them or just can make a chat with company HR or a candidate.",
       image:
@@ -43,7 +43,7 @@ const HeroArea = () =>
     {
       id: "34lkdad67fasfj",
       title: "Skill Assessment",
-      motto: "Candidate can take their skill to the next level",
+      motto: "Candidate must include skills profile to evaluate a recruiter",
       description:
         "As a candidate, you always have to prove yourself that you are the best. To make attention to the company, you can take a skill assessment,if you pass that will show in your profile that will help you to land your job.",
       image: "https://tailwindcomponents.com/svg/website-designer-bro.svg",
@@ -52,12 +52,12 @@ const HeroArea = () =>
     {
       id: "34lkdatrd67fasfj",
       title: "Live Video Chat",
-      motto: "We provide live video chat for the final recruitment",
+      motto: "We provide live video chat for hiring Process",
       description:
         "For recruitment process recruiter and candidate can communicate each other through our video chat system. It helps both to create a mutual platform to get an easier recruitment process. It's easy to use for both.",
       image: "https://i.ibb.co/Bs1VYzP/Video-Chat-Woman-Man-PNG.png",
       // image: "https://i.postimg.cc/LsSG6YHm/exam-removebg-preview.png",
-    }
+    },
   ];
   return (
     <div
@@ -84,7 +84,7 @@ const HeroArea = () =>
                 <h2 className="xl:text-6xl lg:text-5xl md:py-8 dark:text-[#ffffff] text-slate-700  py-2 md:text-4xl text-3xl font-bold tracking-wider">
                   {item.title}
                 </h2>
-                <h6 className="md:py-3 py-1 md:text-2xl text-xl   font-bold dark:text-[#ffffff] text-[#42C2FF]">
+                <h6 className="md:py-3 py-1 md:text-2xl text-xl w-[550px] font-bold dark:text-[#ffffff] text-[#42C2FF]">
                   {item?.motto}
                 </h6>
                 <p className="text-gray-500 dark:text-[#ffffff] leading-7 w-7/12">
@@ -93,7 +93,7 @@ const HeroArea = () =>
                 {loggedInUser && loggedInUser?.role === "candidate" && (
                   <button
                     onClick={() => router.push("/jobs")}
-                    className="pl-4 font-bold uppercase flex items-center space-x-3 pr-3 py-3  hover:text-[#42C2FF] text-white hover:transform duration-500 hover:scale-105 border-2 border-[#42C2FF] rounded-lg bg-[#42C2FF] hover:bg-white ml-5"
+                    className="pl-4 font-bold uppercase flex items-center space-x-3 pr-3 py-3  hover:text-[#42C2FF] text-white hover:transform duration-500 hover:scale-105 border-2 border-[#42C2FF] rounded-lg bg-[#42C2FF] hover:bg-white ml-5 w-max"
                   >
                     Browse Jobs{" "}
                     <BiRightArrowAlt className="font-medium text-2xl" />
