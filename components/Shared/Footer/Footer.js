@@ -66,7 +66,12 @@ const Footer = () =>
             </span>
           </div>
           <div>
-            <form action="#" ref={form} onSubmit={sendEmail} className="flex justify-center items-center">
+            <form
+              action="#"
+              ref={form}
+              onSubmit={sendEmail}
+              className="flex justify-center items-center"
+            >
               <input
                 className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-l-md py-2 pl-2 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
                 placeholder="Enter your mail..."
@@ -90,7 +95,9 @@ const Footer = () =>
                     alt="logo"
                   />
                   <span className=" text-xl font-extrabold">
-                    <span className="dark:text-white text-slate-700 whitespace-nowrap">CorporateZone</span>
+                    <span className="dark:text-white text-slate-700 whitespace-nowrap">
+                      CorporateZone
+                    </span>
                   </span>
                 </a>
               </Link>
@@ -125,7 +132,6 @@ const Footer = () =>
                   <a className="">Rules & Regulation</a>
                 </Link>
               </p>
-
             </div>
 
             <div className="text-base">
@@ -191,10 +197,8 @@ const Footer = () =>
         </div>
 
         <div className="text-center py-5">
-          <p
-            className=" font-semibold text-slate-600 dark:text-white"
-          >
-            &copy; 2022, Code Express. All Rights Reserved.
+          <p className=" font-semibold text-slate-600 dark:text-white">
+            CodExpress &copy; 2022, All Rights Reserved.
           </p>
         </div>
       </div>

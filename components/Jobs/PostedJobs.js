@@ -61,6 +61,7 @@ const PostedJobs = (props) =>
         console.log(data.data);
       });
   }, []);
+  
 
   //Get Current Posts
   const indexOfLastPost = page * pageCount;
