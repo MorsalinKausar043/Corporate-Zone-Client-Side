@@ -29,7 +29,7 @@ const Modal = ({ setOpenModal }) => {
           />
         </div>
         <div className="relative lg:bottom-1/2 bottom-40 flex justify-between">
-          <div className="border-r-2 pb-5 rounded-full flex flex-col justify-center items-center">
+          <div className="border-r-2 pb-8 rounded-full flex flex-col justify-center items-center">
             <div className="flex justify-center items-center">
               <Image
                 src="https://i.ibb.co/jk2pq6t/candidate-w.png"
@@ -68,7 +68,7 @@ const Modal = ({ setOpenModal }) => {
               height={300}
             />
           </div>
-          <div className="border-l-2 rounded-full flex flex-col justify-center items-center pb-5">
+          <div className="border-l-2 rounded-full flex flex-col justify-center items-center pb-8">
             <div className="flex justify-center items-center">
               <Image
                 src="https://i.ibb.co/s2FgzMm/recruiter-w.png"
