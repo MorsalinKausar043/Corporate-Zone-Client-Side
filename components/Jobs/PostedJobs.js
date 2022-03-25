@@ -30,6 +30,7 @@ const PostedJobs = (props) =>
       job.jobTitle.toLowerCase().includes(searchText.toLowerCase())
     );
     setDisplay(matched);
+    
     console.log(matched);
   };
 
@@ -61,7 +62,6 @@ const PostedJobs = (props) =>
         console.log(data.data);
       });
   }, []);
-  
 
   //Get Current Posts
   const indexOfLastPost = page * pageCount;

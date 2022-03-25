@@ -67,17 +67,18 @@ const Features = (props) =>
             depth: 100,
             modifier: 1,
             slideShadows: false,
+            centeredSlides: true,
           }}
-          slidesPerView={`${widths < 580 ? 1 : 2}`}
-          centeredSlides
+          slidesPerView={`${widths < 580 ? 2 : 3}`}
           className="lg:w-9/12 md:w-11/12 mx-auto h-full"
-          style={{ height: "350px" }}>
-          {jobs?.map((job) =>
-          {
+          style={{ height: "350px", width:"100%" }}
+        >
+          {jobs?.map((job) => {
             return (
               <SwiperSlide
                 key={job._id}
-                className=" bg-cover flex flex-col items-center justify-center bg-white bg-center rounded-md shadow-md relative">
+                className=" bg-cover flex flex-col items-center justify-center bg-white bg-center rounded-md shadow-md relative"
+              >
                 <img
                   className="block w-32 h-32 mx-auto "
                   src={job.companyLogo}
@@ -97,15 +98,17 @@ const Features = (props) =>
                       <small>{job?.location}</small>
                     </h4>
                   </div>
-                  <div className="flex flex-col space-y-3">
+                  <div className="flex flex-col space-y-3 lg:w-24 md:w-24">
                     <button
                       className="bg-[#42C2FF] font-medium text-gray-50 px-3 rounded-md"
-                      onClick={() => router.push(`jobs/${job._id}`)}>
+                      onClick={() => router.push(`jobs/${job._id}`)}
+                    >
                       APPLY
                     </button>
                     <button
                       className="bg-[#2a4a57] text-gray-50 font-medium px-3 rounded-md"
-                      onClick={() => router.push("/jobs")}>
+                      onClick={() => router.push("/jobs")}
+                    >
                       See All
                     </button>
                   </div>
