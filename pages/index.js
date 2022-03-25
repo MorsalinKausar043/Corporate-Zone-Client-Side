@@ -41,7 +41,7 @@ export default function Home ({ articles })
                   {
                         modalOpen && !currentUser?.email && <>
                               <Modal setOpenModal={setModalOpen} />
-                              <FireWork />
+                              {/* <FireWork /> */}
                         </>
                   }
                   <Header />

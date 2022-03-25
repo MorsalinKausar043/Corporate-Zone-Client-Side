@@ -67,9 +67,14 @@ const DashboardRoutes = ({ jobs }) =>
           <div className="flex justify-between items-center my-5 mr-5 ml-0 md:ml-4 py-5">
             <div className="flex flex-col items-center mx-auto">
               <Link href="/">
-                <a className="flex items-center ">
-                  <span className=" text-xl font-extrabold ">
-                    <span className="text-pink-500">C</span>orporate Zone
+                <a className="flex justify-center md:justify-start items-center">
+                  <img
+                    src="https://i.ibb.co/z8GVp26/corzon.png"
+                    className="w-12 h-12"
+                    alt="logo"
+                  />
+                  <span className=" text-xl font-extrabold">
+                    <span className="text-white whitespace-nowrap">CorporateZone</span>
                   </span>
                 </a>
               </Link>
