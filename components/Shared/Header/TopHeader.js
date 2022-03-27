@@ -25,12 +25,12 @@ const TopHeader = () =>
           ) : (
             <>
               <Link href="/signup">
-                <a className="pl-4 font-light uppercase flex items-center space-x-3 font-serif pr-2 py-3  hover:text-white hover:transform duration-500 hover:scale-95 border-2 border-[#42C2FF] text-[#42C2FF] rounded-bl-lg rounded-tl-lg hover:bg-[#42C2FF]">
+                <a className="pl-4 font-semibold uppercase flex items-center space-x-3 font-serif pr-2 py-3  hover:text-white hover:transform duration-500 hover:scale-95 border-2 border-[#42C2FF] text-[#42C2FF] rounded-bl-lg rounded-tl-lg hover:bg-[#42C2FF]">
                   <FaUserAlt className="mr-2" /> Sign up
                 </a>
               </Link>
               <Link href="/signin">
-                <a className="pl-4 font-light uppercase flex items-center space-x-3  pr-2 py-3 hover:text-white hover:transform duration-500 hover:scale-95 border-2 border-[#42C2FF] text-[#42C2FF] rounded-bl-lg rounded-tl-lg hover:bg-[#42C2FF]">
+                <a className="pl-4 font-semibold uppercase flex items-center space-x-3  pr-2 py-3 hover:text-white hover:transform duration-500 hover:scale-95 border-2 border-[#42C2FF] text-[#42C2FF] rounded-bl-lg rounded-tl-lg hover:bg-[#42C2FF]">
                   <MdLogin className="mr-2" /> Sign In
                 </a>
               </Link>

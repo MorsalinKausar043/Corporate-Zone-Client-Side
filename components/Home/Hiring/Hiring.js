@@ -7,7 +7,7 @@ const Hiring = () =>
 {
   return (
     <div className="space-y-7 mx-auto md:w-3/4 relative my-6 recent_header ">
-      <h3 className="text-xl font-bold  md:text-3xl text-center after:content-[''] after:absolute after:border-t-2 after:w-16 after:border-cyan-500 after:left-0 after:bottom-0 after:right-40 after:top-10 after:mx-auto md:font-medium mb-20 dark:text-white text-slate-800">
+      <h3 className="text-xl font-bold  md:text-3xl text-center after:content-[''] after:absolute after:border-t-2 after:w-16 after:border-cyan-500 after:left-0 after:bottom-0 after:right-0 after:top-10 after:mx-auto md:font-medium mb-20 dark:text-white text-slate-800">
         Key Features For Exceptional Hiring
       </h3>
       <div className="md:flex md:justify-around lg:flex lg:justify-around ml-20 mx-3">
