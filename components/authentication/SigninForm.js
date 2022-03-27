@@ -23,7 +23,7 @@ const SigninForm = () =>
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)} action="#">
-        <div className="flex items-center min-h-screen bg-gray-50">
+        <div className="flex items-center bg-gray-50">
           <div className="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
             <div className="flex flex-col md:flex-row">
               <div className="h-32 md:h-auto md:w-1/2 md:order-last mb-16">

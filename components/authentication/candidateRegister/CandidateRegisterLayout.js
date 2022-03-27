@@ -3,7 +3,7 @@ import CandidateForm from "./CandidateForm";
 
 const CandidateRegisterLayout = () => {
   return (
-    <div className="px-3 py-5">
+    <div className="px-3 py-5 mt-9">
       <p className="text-right font-semibold font-mono">
         Existing Candidate?
         <Link href="/signin">

@@ -3,7 +3,7 @@ import RecruiterForm from "./RecruiterForm";
 
 const RecruiterRegisterLayout = () => {
   return (
-    <div className="px-3 py-5">
+    <div className="px-3 py-5 mt-9">
       <p className="text-right font-semibold font-mono">
         Existing Employers/Recruters?
         <Link href="/signin">
